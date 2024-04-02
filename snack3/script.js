@@ -3,22 +3,14 @@
 
 // chiediamo 10 numeri all'utente
 
-const num1 = parseInt(prompt ("inserisci numero"));
-const num2 = parseInt(prompt ("inserisci numero"));
-const num3 = parseInt(prompt ("inserisci numero"));
-const num4 = parseInt(prompt ("inserisci numero"));
-const num5 = parseInt(prompt ("inserisci numero"));
-const num6 = parseInt(prompt ("inserisci numero"));
-const num7 = parseInt(prompt ("inserisci numero"));
-const num8 = parseInt(prompt ("inserisci numero"));
-const num9 = parseInt(prompt ("inserisci numero"));
-const num10 = parseInt(prompt ("inserisci numero"));
+let ask = 0;
+let result = 0;
 
+for (i = 0; i < 10; i++) {
+    ask = parseInt(prompt("dimmi un numero"));
 
-// sommiamo tutti i numeri 
+    result += ask;
 
-const total = num1 + num2 +  num3 + num4 + num5 + num6 + num7 + num8 + num9 + num10;
+    console.log(result);
+}
 
-// stampiamo la somma di tutti i numeri
-
-console.log(total);

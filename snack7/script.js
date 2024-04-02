@@ -11,8 +11,3 @@ for ( i = 0; risultato <= 1000; i++) {
 };
 
 
-
-// finchè il risultato dell'operzione non arriva a 1000
-    // calcolo il risultato della prossima potenza 2^0, 2^1, 2^2 = 1 
-    // se il risultato è < 1000
-        //stampiamo il risultato

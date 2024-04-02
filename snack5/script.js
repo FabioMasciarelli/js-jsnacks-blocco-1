@@ -7,9 +7,6 @@
 const array =[];
 
 // chiediamo per 6 volte all'utente 6 volte di inserire un numero
-
-
-
 // creiamo la condizione per cui se è dispari lo inseriamo nell'array precdentemente creato
 
 for (i = 0; i < 6 ; i++) {
