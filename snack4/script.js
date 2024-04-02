@@ -11,18 +11,18 @@ const username = prompt("qual'è il tuo nome?");
 // dichiariamo una variabile di appoggio
 let flag = false;
 
-for (i = 0; i < array.lenght; i++ ) {
+for (i = 0; i < array.length; i++ ) {
 
     if (username === array[i]) {
         flag = true;
     } 
 }
 
-let outputMessage ="";
+let outputMessage="";
 
-if (flag == true) {
+if (flag === true) {
     outputMessage = `sei invitato!`;
-} else {
+} else if (flag === false) {
     outputMessage = `non sei stato invitato`;
 }
 
